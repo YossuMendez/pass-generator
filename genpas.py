@@ -36,9 +36,6 @@ class passwordGenerator:
     def __createPasswordPhoneNumer(self):
         pass
 
-    def joinPass(self):
-        stringFinal = self.createPasswordName() + self.__createPasswordBirthday()
-        print(stringFinal)
 
 
 nuevosDatos = passwordGenerator("Josue David Mendez Diaz", "03/02/1999", "502 30438619", "jossugames@gmail.com", "yossu")
